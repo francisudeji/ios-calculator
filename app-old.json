@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "iOS Calculator",
+    "slug": "ios-calculator",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": ["android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#333333"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}

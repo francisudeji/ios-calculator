@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "iOS Calculator",
+    "slug": "ios-calculator",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": ["android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.francisudeji.ioscalculator",
+      "permissions": ["READ_EXTERNAL_STORAGE"]
+    }
+  }
+}
